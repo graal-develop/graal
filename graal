@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+require __DIR__.'/vendor/autoload.php';
+use Psy\Shell;
+
+$shell = new Shell();
+$shell->run();
+
+exit(0);
