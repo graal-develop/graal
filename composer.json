@@ -1,0 +1,41 @@
+{
+    "name": "graal/graal",
+    "description": "Graal Framework",
+    "keywords": ["framework", "graal"],
+    "type": "project",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+
+    "require": {
+        "php": ">=7.0.0",
+        "filp/whoops": "^2.1",
+        "monolog/monolog": "^1.23",
+        "nesbot/carbon": "^1.22",
+        "swiftmailer/swiftmailer": "^6.0",
+        "symfony/debug": "^4.0",
+        "symfony/finder": "^4.0",
+        "symfony/var-dumper": "^4.0",
+        "vlucas/phpdotenv": "^2.4"
+    },
+
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Ivan Maruca",
+            "email": "ivan.maruca@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Graal\\" : "src/Graal/"
+        }
+    },
+    
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
